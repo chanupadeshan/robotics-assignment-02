@@ -133,6 +133,10 @@ sha256sum -c reports/preserved_navigation_assets.sha256
 
 ## Deep Q-learning route demonstration
 
+The [Nav2 versus DQN evaluation](evaluation/README.md) compares actual Nav2 planning
+and the trained policy on 105 identical start–goal pairs, with CSV/JSON data,
+clearance checks, PNG/PDF plots and commands to reproduce the experiment.
+
 See [DQN setup, training and evaluation](src/maze_dqn/README.md) and the [measured results](reports/DQN_REPORT.md). DQN learns cell-to-cell routes from rewards; Nav2's DWB controller executes the learned path directly through `FollowPath`. RViz's **Nav2 Goal** tool continues using the classical NavFn planner. Run DQN from its own command below.
 
 With the simulation and Nav2 terminals running, preview a learned route without moving:

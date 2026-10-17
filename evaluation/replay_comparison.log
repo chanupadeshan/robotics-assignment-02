@@ -1,0 +1,57 @@
+{
+  "recorded_utc": "2026-10-17T12:58:48.410372+00:00",
+  "maze_signature": "a7fcd0157f6dae50a5803404622d926add855402a78f2a63cc06b6c186530204",
+  "pairs": 105,
+  "goals": [
+    4,
+    11,
+    35
+  ],
+  "deployed_seed": 17,
+  "cpu_repeats_per_pair": 30,
+  "python": "3.12.3",
+  "cpu": "x86_64",
+  "nav2_successes": 96,
+  "nav2_action_successes": 105,
+  "nav2_clearance_flags": 9,
+  "nav2_minimum_planned_clearance_m": -0.007085109831171027,
+  "dqn_successes": 105,
+  "dqn_grid_optimal_routes": 105,
+  "dqn_wall_attempts": 0,
+  "dijkstra_successes": 105,
+  "nav2_server_planning_median_ms": 1.0,
+  "nav2_action_round_trip_median_ms": 10.552044,
+  "dqn_pair_median_cpu_ms": 0.37193350000000003,
+  "dijkstra_pair_median_cpu_ms": 0.039003499999999997,
+  "timing_scope": "Nav2 node-clock duration (simulation time here), ROS wall-clock action latency; separate in-process wall-clock CPU benchmark. No cross-context speed ratio.",
+  "path_scope": "Same endpoints; continuous NavFn geometry and cell-center routes differ. Grid optimality only against cell-graph Dijkstra.",
+  "generalization_scope": "One known maze, three trained goals; deployment selected after same-maze qualification.",
+  "nav2_capture": {
+    "recorded_utc": "2026-10-17T12:53:55.013185+00:00",
+    "maze_signature": "a7fcd0157f6dae50a5803404622d926add855402a78f2a63cc06b6c186530204",
+    "configuration": {
+      "GridBased.plugin": "maze_navigation::MazeNavfnPlanner",
+      "GridBased.use_astar": false,
+      "GridBased.tolerance": 0.05,
+      "GridBased.allow_unknown": false
+    },
+    "costmap_before": {
+      "sha256": "41386d1664290dfa83ef0a0718f012b156725e06086b27e2e8a4a0c38e903614",
+      "width": 128,
+      "height": 128,
+      "resolution": 0.02500000037252903,
+      "frame": "map",
+      "update_sim_seconds": 8687.097
+    },
+    "costmap_after": {
+      "sha256": "a32c3ad03242a09355ca7fb9400401d0a1bdff0687172270784fa93f703756b1",
+      "width": 128,
+      "height": 128,
+      "resolution": 0.02500000037252903,
+      "frame": "map",
+      "update_sim_seconds": 8689.993
+    },
+    "scope": "ComputePathToPose only; explicit cell-center start/goal; no motion",
+    "warmup_requests": 3
+  }
+}
