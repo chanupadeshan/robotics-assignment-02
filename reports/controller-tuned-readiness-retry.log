@@ -1,0 +1,58 @@
+{
+  "lifecycle": {
+    "map_server": "active",
+    "amcl": "active",
+    "controller_server": "active",
+    "smoother_server": "active",
+    "planner_server": "active",
+    "behavior_server": "active",
+    "velocity_smoother": "active",
+    "collision_monitor": "active",
+    "bt_navigator": "active",
+    "local_costmap/local_costmap": "active",
+    "global_costmap/global_costmap": "active"
+  },
+  "use_sim_time": {
+    "map_server": true,
+    "amcl": true,
+    "controller_server": true,
+    "smoother_server": true,
+    "planner_server": true,
+    "behavior_server": true,
+    "velocity_smoother": true,
+    "collision_monitor": true,
+    "bt_navigator": true,
+    "local_costmap/local_costmap": true,
+    "global_costmap/global_costmap": true,
+    "robot_state_publisher": true
+  },
+  "rates": {
+    "/scan": {
+      "wall_hz": 1.6326620056798855,
+      "sim_hz": 1.7094017094017027
+    },
+    "/odom": {
+      "wall_hz": 16.274482407553656,
+      "sim_hz": 17.0357751277683
+    }
+  },
+  "scan_frame": "base_scan",
+  "map": {
+    "width": 128,
+    "height": 128,
+    "resolution": 0.02500000037252903
+  },
+  "cmd_vel_type": [
+    "geometry_msgs/msg/TwistStamped"
+  ],
+  "map_pose": {
+    "x": -0.7602019152238724,
+    "y": -1.1970525651074624,
+    "yaw": -0.11869990008337833
+  },
+  "gazebo_pose": {
+    "x": -0.7478394235563322,
+    "y": -1.1740652094799282,
+    "yaw": -0.11587837135412651
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "lifecycle": {
+    "map_server": "active",
+    "amcl": "active",
+    "controller_server": "active",
+    "smoother_server": "active",
+    "planner_server": "active",
+    "behavior_server": "active",
+    "velocity_smoother": "active",
+    "collision_monitor": "active",
+    "bt_navigator": "active",
+    "local_costmap/local_costmap": "active",
+    "global_costmap/global_costmap": "active"
+  },
+  "use_sim_time": {
+    "map_server": true,
+    "amcl": true,
+    "controller_server": true,
+    "smoother_server": true,
+    "planner_server": true,
+    "behavior_server": true,
+    "velocity_smoother": true,
+    "collision_monitor": true,
+    "bt_navigator": true,
+    "local_costmap/local_costmap": true,
+    "global_costmap/global_costmap": true,
+    "robot_state_publisher": true
+  },
+  "rates": {
+    "/scan": {
+      "wall_hz": 4.966745019273282,
+      "sim_hz": 5.000000000000002
+    },
+    "/odom": {
+      "wall_hz": 49.896478014895195,
+      "sim_hz": 50.00000000000001
+    }
+  },
+  "scan_frame": "base_scan",
+  "map": {
+    "width": 128,
+    "height": 128,
+    "resolution": 0.02500000037252903
+  },
+  "cmd_vel_type": [
+    "geometry_msgs/msg/TwistStamped"
+  ],
+  "map_pose": {
+    "x": -0.7674498106405562,
+    "y": -1.255111500038495,
+    "yaw": 0.0020906375569509903
+  },
+  "gazebo_pose": {
+    "x": -0.7640614066648032,
+    "y": -1.2499999999710192,
+    "yaw": -2.7041183006494234e-08
+  }
+}
+{
+  "goal": [
+    -0.45,
+    -1.25,
+    0.0
+  ],
+  "action_status": 4,
+  "result": "nav2_msgs.action.NavigateToPose_Result(error_code=0, error_msg='')",
+  "wall_seconds": 6.1021402629994554,
+  "start_pose": {
+    "x": -0.7674498106405568,
+    "y": -1.255111500038495,
+    "yaw": 0.0020906375569509903
+  },
+  "final_pose": {
+    "x": -0.48971494721802455,
+    "y": -1.2628067827369691,
+    "yaw": 0.08999257800795853
+  },
+  "position_error": 0.041728775642264,
+  "yaw_error": 0.08999257800795853,
+  "gazebo_start": {
+    "x": -0.7640755092451781,
+    "y": -1.2499999999708047,
+    "yaw": -2.6818802931716727e-08
+  },
+  "gazebo_final": {
+    "x": -0.46261288817097146,
+    "y": -1.2447528833407453,
+    "yaw": 0.0960447481542878
+  },
+  "gazebo_position_error": 0.013660789920398443,
+  "moving_commands": 101,
+  "gazebo_samples": 358,
+  "gazebo_displacement": 0.30150828203858704,
+  "planned_min_clearance": 0.0631606101715654,
+  "sampled_min_clearance": 0.08973376081232723,
+  "collision_check": "0.13 m circle vs SDF walls at Gazebo pose samples; no contact sensor",
+  "passed": true
+}
+{
+  "goal": [
+    0.75,
+    -1.25,
+    0.0
+  ],
+  "action_status": 4,
+  "result": "nav2_msgs.action.NavigateToPose_Result(error_code=0, error_msg='')",
+  "wall_seconds": 16.702134483999544,
+  "start_pose": {
+    "x": -0.48971494721802444,
+    "y": -1.2628067827369691,
+    "yaw": 0.08999257800795853
+  },
+  "final_pose": {
+    "x": 0.7078799628585154,
+    "y": -1.266594265934216,
+    "yaw": 0.09818964286978694
+  },
+  "position_error": 0.04527104141386106,
+  "yaw_error": 0.09818964286978694,
+  "gazebo_start": {
+    "x": -0.46261288817097146,
+    "y": -1.2447528833407453,
+    "yaw": 0.0960447481542878
+  },
+  "gazebo_final": {
+    "x": 0.7205192871072944,
+    "y": -1.2563728772787226,
+    "yaw": 0.10654900455783342
+  },
+  "gazebo_position_error": 0.03016166436839646,
+  "moving_commands": 313,
+  "gazebo_samples": 980,
+  "gazebo_displacement": 1.1831892361062957,
+  "planned_min_clearance": 0.05898427954292698,
+  "sampled_min_clearance": 0.07326823660888085,
+  "collision_check": "0.13 m circle vs SDF walls at Gazebo pose samples; no contact sensor",
+  "passed": true
+}
+{
+  "goal": [
+    1.25,
+    -1.25,
+    1.5707963267948966
+  ],
+  "action_status": 4,
+  "result": "nav2_msgs.action.NavigateToPose_Result(error_code=0, error_msg='')",
+  "wall_seconds": 10.98303620399929,
+  "start_pose": {
+    "x": 0.7078799628585154,
+    "y": -1.266594265934216,
+    "yaw": 0.09818964286978694
+  },
+  "final_pose": {
+    "x": 1.20514522424042,
+    "y": -1.2657155845775334,
+    "yaw": 1.4664323731327473
+  },
+  "position_error": 0.047528207488351785,
+  "yaw_error": 0.10436395366214923,
+  "gazebo_start": {
+    "x": 0.7205192871072944,
+    "y": -1.2563728772787226,
+    "yaw": 0.10654900455783342
+  },
+  "gazebo_final": {
+    "x": 1.2014694585113177,
+    "y": -1.251772518703073,
+    "yaw": 1.4683747806032181
+  },
+  "gazebo_position_error": 0.048562900240177766,
+  "moving_commands": 199,
+  "gazebo_samples": 643,
+  "gazebo_displacement": 0.48097217245136326,
+  "planned_min_clearance": 0.06313138005333199,
+  "sampled_min_clearance": 0.08192019819508836,
+  "collision_check": "0.13 m circle vs SDF walls at Gazebo pose samples; no contact sensor",
+  "passed": true
+}
+{
+  "goal": [
+    1.25,
+    -0.75,
+    1.5707963267948966
+  ],
+  "action_status": 4,
+  "result": "nav2_msgs.action.NavigateToPose_Result(error_code=0, error_msg='')",
+  "wall_seconds": 7.401795908999702,
+  "start_pose": {
+    "x": 1.20514522424042,
+    "y": -1.2657155845775334,
+    "yaw": 1.4664323731327473
+  },
+  "final_pose": {
+    "x": 1.259121016740111,
+    "y": -0.8075292311708733,
+    "yaw": 1.6956582653800225
+  },
+  "position_error": 0.0582477929666452,
+  "yaw_error": 0.12486193858512595,
+  "gazebo_start": {
+    "x": 1.2014694585113177,
+    "y": -1.251772518703073,
+    "yaw": 1.4683747806032181
+  },
+  "gazebo_final": {
+    "x": 1.2638737652593228,
+    "y": -0.8011198295244107,
+    "yaw": 1.635928504209152
+  },
+  "gazebo_position_error": 0.052969031830642416,
+  "moving_commands": 130,
+  "gazebo_samples": 433,
+  "gazebo_displacement": 0.45495290279836564,
+  "planned_min_clearance": 0.0700000048428773,
+  "sampled_min_clearance": 0.08092801002654018,
+  "collision_check": "0.13 m circle vs SDF walls at Gazebo pose samples; no contact sensor",
+  "passed": true
+}

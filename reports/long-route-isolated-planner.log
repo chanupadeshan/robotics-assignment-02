@@ -1,0 +1,45 @@
+[INFO] [1792232515.102399820] [maze_route_test.planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792232515.103386435] [maze_route_test.planner_server]: Creating
+[INFO] [1792232515.112424939] [maze_route_test.global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792232515.112946419] [maze_route_test.global_costmap.global_costmap]: Creating Costmap
+[INFO] [1792232515.302727393] [maze_route_test.planner_server]: Configuring
+[INFO] [1792232515.302795668] [maze_route_test.global_costmap.global_costmap]: Configuring
+[INFO] [1792232515.315246413] [maze_route_test.global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1792232515.320435118] [maze_route_test.global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1792232515.327101921] [maze_route_test.global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1792232515.327160721] [maze_route_test.global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1792232515.327452645] [maze_route_test.global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1792232515.335255432] [maze_route_test.global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1792232515.335303753] [maze_route_test.global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1792232515.335584548] [maze_route_test.global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1792232515.361296482] [maze_route_test.planner_server]: Created global planner plugin GridBased of type maze_navigation::MazeNavfnPlanner
+[INFO] [1792232515.361345788] [maze_route_test.planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[INFO] [1792232515.361627110] [maze_route_test.planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1792232515.650467403] [maze_route_test.global_costmap.global_costmap]: StaticLayer: Resizing costmap to 128 X 128 at 0.025000 m/pix
+[INFO] [1792232520.384405460] [maze_route_test.planner_server]: Activating
+[INFO] [1792232520.384482594] [maze_route_test.global_costmap.global_costmap]: Activating
+[INFO] [1792232520.384503542] [maze_route_test.global_costmap.global_costmap]: Checking transform
+[INFO] [1792232520.384727200] [maze_route_test.global_costmap.global_costmap]: start
+[INFO] [1792232520.937657022] [maze_route_test.planner_server]: Activating plugin GridBased of type NavfnPlanner
+[INFO] [1792232520.938812656] [maze_route_test.planner_server]: Creating bond (planner_server) to lifecycle manager.
+[ERROR] [1792232523.990438080] [maze_route_test.planner_server]: Failed to create a plan from potential when a legal potential was found. This shouldn't happen.
+[INFO] [1792232523.991840666] [maze_route_test.planner_server]: NavFn extended extraction succeeded: 532 points (stock limit 512)
+[INFO] [1792232524.005085851] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1792232524.005149999] [maze_route_test.planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1792232524.005204399] [maze_route_test.planner_server]: Deactivating
+[INFO] [1792232524.005241043] [maze_route_test.global_costmap.global_costmap]: Deactivating
+[INFO] [1792232524.385839771] [maze_route_test.planner_server]: Deactivating plugin GridBased of type NavfnPlanner
+[INFO] [1792232524.385961324] [maze_route_test.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1792232524.396359183] [maze_route_test.planner_server]: Cleaning up
+[INFO] [1792232524.426341815] [maze_route_test.global_costmap.global_costmap]: Cleaning up
+[INFO] [1792232524.437183524] [maze_route_test.planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[INFO] [1792232524.437653268] [maze_route_test.planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[INFO] [1792232524.535150922] [maze_route_test.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1792232524.541534360] [maze_route_test.global_costmap.global_costmap]: Destroying
+[INFO] [1792232524.570092213] [maze_route_test.planner_server]: Destroying

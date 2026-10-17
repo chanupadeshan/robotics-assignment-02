@@ -1,0 +1,27 @@
+{"seconds": 5.219601493001392, "map": {"x": -0.007985340140452046, "y": 1.1974079378486022, "yaw": -0.01726002697678498}, "gazebo": {"x": 0.008999907764818078, "y": 1.2103577495844065, "yaw": -0.01867209347108955}, "position_difference": 0.0213587516113713, "heading_difference": 0.0014120664943045695, "clearance": 0.08035774958440645}
+{"seconds": 33.773447468000086, "map": {"x": -0.007985340140451935, "y": 1.1974079378486022, "yaw": -0.01726002697678498}, "gazebo": {"x": 0.008999907764818078, "y": 1.2103577495844065, "yaw": -0.01867209347108955}, "position_difference": 0.021358751611371213, "heading_difference": 0.0014120664943045695, "clearance": 0.08035774958440645}
+{"seconds": 46.03448719199878, "map": {"x": -0.007985340140452046, "y": 1.1974079378486022, "yaw": -0.01726002697678498}, "gazebo": {"x": 0.008999907764818078, "y": 1.2103577495844065, "yaw": -0.01867209347108955}, "position_difference": 0.0213587516113713, "heading_difference": 0.0014120664943045695, "clearance": 0.08035774958440645}
+{"seconds": 58.323196884000936, "map": {"x": -0.007985340140452046, "y": 1.1974079378486022, "yaw": -0.01726002697678498}, "gazebo": {"x": 0.008999907764818078, "y": 1.2103577495844065, "yaw": -0.01867209347108955}, "position_difference": 0.0213587516113713, "heading_difference": 0.0014120664943045695, "clearance": 0.08035774958440645}
+Traceback (most recent call last):
+  File "/tmp/maze_top_right_drive_second.py", line 31, in <module>
+    report['readiness']=n.readiness();print('READY',flush=True)
+                        ^^^^^^^^^^^^^
+  File "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_navigation/scripts/verify_navigation.py", line 183, in readiness
+    client.destroy()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/action/client.py", line 607, in destroy
+    self._client_handle.destroy_when_not_in_use()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/maze_top_right_drive_second.py", line 46, in <module>
+    n.destroy_node();rclpy.shutdown()
+                     ^^^^^^^^^^^^^^^^
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 134, in shutdown
+    _shutdown(context=context)
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/utilities.py", line 82, in shutdown
+    context.shutdown()
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/context.py", line 129, in shutdown
+    self.__context.shutdown()
+rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:333

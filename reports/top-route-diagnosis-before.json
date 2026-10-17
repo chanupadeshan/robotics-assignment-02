@@ -1,0 +1,159 @@
+{
+  "map_pose": {
+    "x": -0.49562648583942676,
+    "y": -0.9421525820992142,
+    "yaw": -1.7370106692803522
+  },
+  "gazebo_pose": {
+    "x": -0.4601798693680291,
+    "y": -1.2414153023183703,
+    "yaw": -1.733175278522794
+  },
+  "scan_frame": "base_scan",
+  "amcl_covariance": [
+    0.009087662763573923,
+    0.061720793460632084,
+    0.016697289194642195
+  ],
+  "costmap": {
+    "size": [
+      128,
+      128
+    ],
+    "resolution": 0.02500000037252903,
+    "origin": [
+      -1.6,
+      -1.6
+    ],
+    "values": {
+      "0": 1416,
+      "140": 622,
+      "146": 44,
+      "152": 46,
+      "162": 51,
+      "165": 41,
+      "169": 83,
+      "172": 683,
+      "182": 50,
+      "194": 50,
+      "197": 56,
+      "206": 63,
+      "210": 783,
+      "217": 67,
+      "225": 34,
+      "237": 75,
+      "251": 102,
+      "253": 9751,
+      "254": 2367
+    }
+  },
+  "locations": {
+    "(-0.49562648583942676, -0.9421525820992142)": {
+      "cell": [
+        26,
+        44
+      ],
+      "cost": 253,
+      "component_253": 0,
+      "start_component_253": 0,
+      "connected_253": false,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    },
+    "(-0.75, -1.25)": {
+      "cell": [
+        13,
+        33
+      ],
+      "cost": 253,
+      "component_253": 0,
+      "start_component_253": 0,
+      "connected_253": false,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    },
+    "(0.74, 1.23)": {
+      "cell": [
+        113,
+        93
+      ],
+      "cost": 0,
+      "component_253": 13,
+      "start_component_253": 0,
+      "connected_253": false,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    },
+    "(1.25, 1.25)": {
+      "cell": [
+        113,
+        113
+      ],
+      "cost": 0,
+      "component_253": 13,
+      "start_component_253": 0,
+      "connected_253": false,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    },
+    "(-0.75, 0.75)": {
+      "cell": [
+        93,
+        33
+      ],
+      "cost": 0,
+      "component_253": 13,
+      "start_component_253": 0,
+      "connected_253": false,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    }
+  },
+  "plans": [
+    {
+      "goal": [
+        0.74,
+        1.23
+      ],
+      "status": 6,
+      "error_code": 208,
+      "error_msg": "",
+      "poses": 0
+    },
+    {
+      "goal": [
+        1.25,
+        1.25
+      ],
+      "status": 6,
+      "error_code": 208,
+      "error_msg": "",
+      "poses": 0
+    },
+    {
+      "goal": [
+        -0.75,
+        -1.25
+      ],
+      "status": 6,
+      "error_code": 208,
+      "error_msg": "",
+      "poses": 0
+    },
+    {
+      "goal": [
+        -0.75,
+        0.75
+      ],
+      "status": 6,
+      "error_code": 208,
+      "error_msg": "",
+      "poses": 0
+    }
+  ]
+}

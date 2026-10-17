@@ -1,0 +1,5 @@
+ 599513  599500 Sl   /usr/bin/python3 /opt/ros/jazzy/bin/ros2 launch maze_world simulation.launch.py
+ 599784  599761 Sl   /usr/bin/python3 /opt/ros/jazzy/bin/ros2 launch maze_navigation nav2.launch.py
+ 599858  599513 Sl   gz sim -s -r -v 3 /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/install/maze_world/share/maze_world/worlds/maze_fixed.sdf
+ 599862  599513 Sl   gz sim -g -v 3
+ 600161  599784 Sl   /opt/ros/jazzy/lib/rviz2/rviz2 -d /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/install/maze_navigation/share/maze_navigation/config/maze_navigation.rviz --ros-args --params-file /tmp/launch_params_xdcs90r7

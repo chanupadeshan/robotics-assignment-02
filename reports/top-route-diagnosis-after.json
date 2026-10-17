@@ -1,0 +1,159 @@
+{
+  "map_pose": {
+    "x": -0.4606874591089845,
+    "y": -1.2452246460171543,
+    "yaw": -1.7285760401225145
+  },
+  "gazebo_pose": {
+    "x": -0.4601798693680291,
+    "y": -1.2414153023183703,
+    "yaw": -1.733175278522794
+  },
+  "scan_frame": "base_scan",
+  "amcl_covariance": [
+    0.0021744729087377346,
+    0.0019195872200328257,
+    0.0058611047503634925
+  ],
+  "costmap": {
+    "size": [
+      128,
+      128
+    ],
+    "resolution": 0.02500000037252903,
+    "origin": [
+      -1.6,
+      -1.6
+    ],
+    "values": {
+      "0": 2069,
+      "140": 932,
+      "146": 56,
+      "152": 67,
+      "162": 73,
+      "165": 51,
+      "169": 145,
+      "172": 980,
+      "182": 67,
+      "194": 56,
+      "197": 75,
+      "206": 116,
+      "210": 1027,
+      "217": 67,
+      "225": 31,
+      "237": 76,
+      "251": 119,
+      "253": 8362,
+      "254": 2015
+    }
+  },
+  "locations": {
+    "(-0.4606874591089845, -1.2452246460171543)": {
+      "cell": [
+        14,
+        45
+      ],
+      "cost": 169,
+      "component_253": 1,
+      "start_component_253": 1,
+      "connected_253": true,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    },
+    "(-0.75, -1.25)": {
+      "cell": [
+        13,
+        33
+      ],
+      "cost": 0,
+      "component_253": 1,
+      "start_component_253": 1,
+      "connected_253": true,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    },
+    "(0.74, 1.23)": {
+      "cell": [
+        113,
+        93
+      ],
+      "cost": 0,
+      "component_253": 1,
+      "start_component_253": 1,
+      "connected_253": true,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    },
+    "(1.25, 1.25)": {
+      "cell": [
+        113,
+        113
+      ],
+      "cost": 0,
+      "component_253": 1,
+      "start_component_253": 1,
+      "connected_253": true,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    },
+    "(-0.75, 0.75)": {
+      "cell": [
+        93,
+        33
+      ],
+      "cost": 0,
+      "component_253": 1,
+      "start_component_253": 1,
+      "connected_253": true,
+      "component_254": 2,
+      "start_component_254": 2,
+      "connected_254": true
+    }
+  },
+  "plans": [
+    {
+      "goal": [
+        0.74,
+        1.23
+      ],
+      "status": 4,
+      "error_code": 0,
+      "error_msg": "",
+      "poses": 499
+    },
+    {
+      "goal": [
+        1.25,
+        1.25
+      ],
+      "status": 6,
+      "error_code": 208,
+      "error_msg": "",
+      "poses": 0
+    },
+    {
+      "goal": [
+        -0.75,
+        -1.25
+      ],
+      "status": 4,
+      "error_code": 0,
+      "error_msg": "",
+      "poses": 24
+    },
+    {
+      "goal": [
+        -0.75,
+        0.75
+      ],
+      "status": 4,
+      "error_code": 0,
+      "error_msg": "",
+      "poses": 309
+    }
+  ]
+}

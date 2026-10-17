@@ -1,0 +1,7 @@
+{
+  "FollowPath.forward_prune_distance": 0.4,
+  "FollowPath.prune_distance": 0.2,
+  "FollowPath.PathAlign.scale": 16.0,
+  "FollowPath.max_vel_x": 0.1,
+  "FollowPath.max_vel_theta": 0.65
+}

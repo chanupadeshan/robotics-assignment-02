@@ -1,0 +1,6 @@
+Costmap subscriptions: [('/clock', ['rosgraph_msgs/msg/Clock']), ('/map', ['nav_msgs/msg/OccupancyGrid']), ('/maze_route_test/global_costmap/footprint', ['geometry_msgs/msg/Polygon']), ('/parameter_events', ['rcl_interfaces/msg/ParameterEvent'])]
+Traceback (most recent call last):
+  File "/tmp/maze_test_extended_planner.py", line 28, in <module>
+    assert any(topic=='/scan' for topic,_ in subscriptions)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError

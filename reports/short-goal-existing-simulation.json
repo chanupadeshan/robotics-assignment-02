@@ -1,0 +1,90 @@
+{
+  "passed": false,
+  "goals": [
+    {
+      "goal": [
+        -0.45,
+        -1.25,
+        0.0
+      ],
+      "action_status": 4,
+      "result": "nav2_msgs.action.NavigateToPose_Result(error_code=0, error_msg='')",
+      "wall_seconds": 7.423665648000679,
+      "start_pose": {
+        "x": -0.7704152592663975,
+        "y": -1.2545333959639604,
+        "yaw": -5.390320679030041e-05
+      },
+      "final_pose": {
+        "x": -0.49552290733200705,
+        "y": -1.2735682608785128,
+        "yaw": 0.0552640700316783
+      },
+      "position_error": 0.0512620523662108,
+      "yaw_error": 0.0552640700316783,
+      "gazebo_start": null,
+      "gazebo_final": null,
+      "gazebo_position_error": null,
+      "moving_commands": 126,
+      "planned_min_clearance": 0.0700000048428773,
+      "sampled_min_clearance": null,
+      "collision_check": "0.13 m circle vs SDF walls at Gazebo pose samples; no contact sensor",
+      "passed": false
+    }
+  ],
+  "readiness": {
+    "lifecycle": {
+      "map_server": "active",
+      "amcl": "active",
+      "controller_server": "active",
+      "smoother_server": "active",
+      "planner_server": "active",
+      "behavior_server": "active",
+      "velocity_smoother": "active",
+      "collision_monitor": "active",
+      "bt_navigator": "active",
+      "local_costmap/local_costmap": "active",
+      "global_costmap/global_costmap": "active"
+    },
+    "use_sim_time": {
+      "map_server": true,
+      "amcl": true,
+      "controller_server": true,
+      "smoother_server": true,
+      "planner_server": true,
+      "behavior_server": true,
+      "velocity_smoother": true,
+      "collision_monitor": true,
+      "bt_navigator": true,
+      "local_costmap/local_costmap": true,
+      "global_costmap/global_costmap": true,
+      "robot_state_publisher": true
+    },
+    "rates": {
+      "/scan": {
+        "wall_hz": 4.764702557646846,
+        "sim_hz": 5.0
+      },
+      "/odom": {
+        "wall_hz": 46.124558826320985,
+        "sim_hz": 48.30729166666484
+      }
+    },
+    "scan_frame": "base_scan",
+    "map": {
+      "width": 128,
+      "height": 128,
+      "resolution": 0.02500000037252903
+    },
+    "cmd_vel_type": [
+      "geometry_msgs/msg/TwistStamped"
+    ],
+    "map_pose": {
+      "x": -0.7704152592663975,
+      "y": -1.2545333959639604,
+      "yaw": -5.390320679030041e-05
+    },
+    "gazebo_pose": null
+  },
+  "error": "Goal verification failed; subsequent goals were not sent"
+}
