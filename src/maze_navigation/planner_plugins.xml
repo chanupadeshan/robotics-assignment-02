@@ -1,0 +1,7 @@
+<library path="maze_navfn_planner">
+  <class name="maze_navigation::MazeNavfnPlanner"
+         type="maze_navigation::MazeNavfnPlanner"
+         base_class_type="nav2_core::GlobalPlanner">
+    <description>NavFn with bounded extended path extraction for winding maze routes.</description>
+  </class>
+</library>
