@@ -1,0 +1,37 @@
+{
+  "passed": true,
+  "navigation": {
+    "passed": false,
+    "status": 5,
+    "error_code": 0,
+    "error_msg": "",
+    "watchdog": "Interrupted; goal canceled before ROS shutdown",
+    "wall_seconds": 4.112378133002494,
+    "start_truth": {
+      "x": -0.7574422604461929,
+      "y": 1.0244825717033141,
+      "yaw": -0.14118113622475606
+    },
+    "final_truth": {
+      "x": -0.730500569140331,
+      "y": 0.9806438223474583,
+      "yaw": -2.0718151538830067
+    },
+    "final_map_pose": {
+      "x": -0.747414802868215,
+      "y": 0.9724917946827978,
+      "yaw": -2.053695308987198
+    },
+    "gazebo_position_error": 2.677247429245516,
+    "map_position_error": 2.679873293512441,
+    "gazebo_yaw_error": 2.0718151538830067,
+    "moving_commands": 72,
+    "final_command": {
+      "linear_x": 0.0,
+      "angular_z": 0.0
+    },
+    "minimum_clearance": 0.07586902479616045,
+    "collision_check": "Sampled 0.13 m circle against SDF boxes; no contact sensor",
+    "execution": "One FollowPath action to DWB; no NavFn/ComputePathToPose calls"
+  }
+}

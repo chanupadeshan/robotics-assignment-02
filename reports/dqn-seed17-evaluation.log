@@ -1,0 +1,19 @@
+{
+  "all": {
+    "trials": 105,
+    "success_rate": 1.0,
+    "optimal_rate": 1.0,
+    "wall_attempts": 0,
+    "mean_dqn_planning_ms": 0.3812076952488583,
+    "mean_dijkstra_planning_ms": 0.03315873348453481
+  },
+  "heldout_initial_pairs": {
+    "trials": 21,
+    "success_rate": 1.0,
+    "optimal_rate": 1.0,
+    "wall_attempts": 0,
+    "mean_dqn_planning_ms": 0.37608752366698656,
+    "mean_dijkstra_planning_ms": 0.034640190798589696
+  },
+  "scope": "Same fixed maze and trained goals; held-out reset pairs are not unseen maps."
+}

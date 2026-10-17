@@ -1,0 +1,8 @@
+Starting >>> maze_world
+Finished <<< maze_world [0.83s]
+Starting >>> maze_navigation
+Finished <<< maze_navigation [0.68s]
+Starting >>> maze_dqn
+Finished <<< maze_dqn [4.12s]
+
+Summary: 3 packages finished [5.78s]

@@ -2,6 +2,11 @@
 
 Recorded: 2026-10-17 15:13 +0530 (Asia/Colombo). Ubuntu 24.04, ROS 2 Jazzy, Gazebo Sim 8.11.0 / Harmonic. All movement tests used Gazebo, not physical hardware.
 
+Later user-authorized work enabled and implemented the formerly empty DQN package.
+Its training, comparison, runtime trials and preservation evidence are recorded
+separately in [the DQN report](DQN_REPORT.md). References below to unchanged DQN
+stubs describe the original Nav2-only work, before this later implementation.
+
 ## Result
 
 **Working autonomous Nav2 navigation verified.** Two fresh simulation runs each completed a short goal and then three consecutive reachable goals (8 successful action results total). A separate earlier short goal also returned success, but its ground-truth capture was incomplete; that trial remains marked failed by the verifier and is not counted among these eight.

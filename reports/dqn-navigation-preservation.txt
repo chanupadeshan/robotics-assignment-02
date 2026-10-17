@@ -1,0 +1,4 @@
+src/maze_world/worlds/maze.sdf: OK
+src/maze_world/worlds/maze_fixed.sdf: OK
+src/maze_navigation/maps/maze_map.pgm: OK
+src/maze_navigation/maps/maze_map.yaml: OK
