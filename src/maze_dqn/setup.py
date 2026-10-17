@@ -11,5 +11,5 @@ setup(
     entry_points={'console_scripts': [
         'train_dqn = maze_dqn.train:main',
         'evaluate_dqn = maze_dqn.evaluate:main',
-    ]},
+        'follow_dqn = maze_dqn.follow:main']},
 )

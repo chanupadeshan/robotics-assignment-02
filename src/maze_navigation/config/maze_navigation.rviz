@@ -25,6 +25,22 @@ Panels:
 Visualization Manager:
   Class: ''
   Displays:
+  - Alpha: 1
+    Buffer Length: 1
+    Class: rviz_default_plugins/Path
+    Color: 255; 145; 30
+    Enabled: true
+    Line Style: Lines
+    Line Width: 0.035
+    Name: DQN Learned Route
+    Pose Style: None
+    Topic:
+      Depth: 1
+      Durability Policy: Transient Local
+      History Policy: Keep Last
+      Reliability Policy: Reliable
+      Value: /dqn_path
+    Value: true
   - Alpha: 0.5
     Cell Size: 0.5
     Class: rviz_default_plugins/Grid

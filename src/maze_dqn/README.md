@@ -1,6 +1,17 @@
 # DQN maze route learning
 
-Reward-trained global routes on the corrected 6×6 maze.
+This package learns **which adjacent maze cell to visit next**. A PyTorch neural
+network is trained from rewards in an offline environment derived from the unchanged
+corrected SDF. During Gazebo demonstrations, its learned cell route is densified and
+executed one learned waypoint at a time through Nav2's **FollowPath/DWB local
+controller**, using the existing velocity smoother and collision monitor. Each
+waypoint has a checked straight path and arrival heading for the next move. No
+NavFn global planner is called to produce
+or replace a DQN route. This is global route learning, not LiDAR-to-steering learning.
+When the robot faces away from the next path, a collision-checked Nav2 Spin action
+first aligns it with that learned edge. This also allows returning from a previous goal.
+At the destination, translation finishes first; a separate Spin action then sets
+the requested arrival heading. Both phases must pass for the route to pass.
 
 ## Setup
 
@@ -70,3 +81,67 @@ comparable. Neither method's grid length is a continuous NavFn trajectory length
 - Episodes end at the goal or 72 steps. Time-limit truncation still bootstraps;
   actual goal termination does not. Training can stop after sustained perfect
   success on training reset pairs, following at least 2,000 episodes.
+
+## Preview or drive a learned route
+
+Offline preview from the spawn to the top-right goal sends **no ROS commands**:
+
+```bash
+python -m maze_dqn.follow --model models/dqn/maze_dqn.pt --start-cell 1 --goal-cell 35
+```
+
+For Gazebo execution, keep the project's simulation and AMCL/Nav2 terminals
+running. Do not send an RViz goal during DQN execution. In a separate terminal:
+
+```bash
+cd /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws
+source scripts/dqn_env.bash
+python -m maze_dqn.follow --model models/dqn/maze_dqn.pt \
+  --goal-cell 35 --yaw 1.5707963268 --execute --output reports/my-dqn-drive.json
+```
+
+Omit `--execute` for a live-pose preview. Execution reads the current robot pose;
+do not pass `--start-cell`. If already at the goal it sends no motion action.
+Choose another trained goal, such as `--goal-cell 4 --yaw 0`, to return to the
+bottom corridor. Preview/execution rejects failed policies, loops, changed maze
+geometry, active competing goals, inaccurate localization and unsafe connectors.
+Execution cancels on timeout, stale simulator data, localization divergence or
+crossing the conservative 0.13 m wall-clearance envelope. Failures are reported,
+without substituting a Dijkstra route. Geometric checks are sampled; no physical
+contact sensor is installed.
+
+The total route timeout defaults to 360 seconds. Ctrl+C cancels the active action
+before shutting down its ROS context. A mid-passage start connects to the next
+untraversed part of the first learned edge when safe, avoiding a reversal solely
+to visit an already-passed cell center. The robot's 0.13 m envelope is unchanged.
+Intermediate waypoints temporarily use an 8 cm controller position tolerance to
+allow finishing their turns despite small localization updates. The original
+6 cm final-goal tolerance is restored for the destination and again on exit,
+including cancellation/error cleanup; the report records restoration. Do not
+send RViz goals while these temporary settings are in use.
+The independent simulator-heading check allows 0.30 rad at intermediate targets
+and 0.20 rad at the destination; intermediate headings guide the next leg.
+After the final rotation, independent position checks require less than 9 cm map
+error and 12 cm simulator error. The controller's 6 cm position threshold applies
+to the final approach; rotation can slightly change the final measured position.
+
+The learned path is published as `/dqn_path` (`nav_msgs/Path`). Add a Path display
+with that topic in an already-open RViz, or use the project's updated RViz config
+on your next startup. The stored path may differ from DWB's actual corner tracking.
+
+## Tests and interpretation
+
+```bash
+source scripts/dqn_env.bash
+python -m pytest src/maze_dqn/test -q
+```
+
+The tests cover geometry, collision rewards, terminal bootstrapping, replay,
+neural-gradient/target updates, checkpoint round trips, failed-policy handling
+and the held-out split. Trained success and actual Gazebo motion are checked
+separately and reported in `reports/DQN_REPORT.md`. A small fixed maze does not
+establish that DQN is faster or more reliable than Dijkstra, and learning a grid
+policy is not an end-to-end autonomous-driving result.
+
+Implementation references: [PyTorch DQN tutorial](https://docs.pytorch.org/tutorials/intermediate/reinforcement_q_learning)
+and [CPU installation](https://pytorch.org/get-started/locally/).

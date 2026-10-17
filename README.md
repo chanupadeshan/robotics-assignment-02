@@ -1,6 +1,6 @@
 # TurtleBot3 Burger maze navigation
 
-Existing ROS 2 Jazzy / Gazebo Harmonic project, repaired for reference-map AMCL localization and Nav2 navigation. The corrected world is **`src/maze_world/worlds/maze_fixed.sdf`**. The original world, both map files, and unfinished `maze_dqn` work are preserved. DQN remains excluded by its existing `COLCON_IGNORE`.
+Existing ROS 2 Jazzy / Gazebo Harmonic project with reference-map AMCL, Nav2 navigation and DQN maze-route learning. The corrected world is **`src/maze_world/worlds/maze_fixed.sdf`**. The original world and both map files are preserved. The formerly empty DQN package is now enabled; its original files are backed up in `backups/2026-10-17-before-dqn/`.
 
 The maze has 6 × 6 cells at 0.5 m spacing, 0.05 m walls, and approximately 0.45 m clear corridors. `maze_map.pgm` is a **geometry-generated reference occupancy map, not a SLAM result**. Its 128 × 128 pixels at 0.025 m/pixel and origin `[-1.6, -1.6, 0]` match the corrected SDF wall boxes exactly at pixel centers. See [the test report](reports/TEST_REPORT.md) for measured navigation results and limitations.
 
@@ -128,8 +128,30 @@ source /opt/ros/jazzy/setup.bash
 gz sdf -k src/maze_world/worlds/maze_fixed.sdf
 colcon test --packages-select maze_world maze_navigation
 colcon test-result --verbose
-sha256sum -c reports/preserved_assets.sha256
+sha256sum -c reports/preserved_navigation_assets.sha256
 ```
+
+## Deep Q-learning route demonstration
+
+See [DQN setup, training and evaluation](src/maze_dqn/README.md) and the [measured results](reports/DQN_REPORT.md). DQN learns cell-to-cell routes from rewards; Nav2's DWB controller executes the learned path directly through `FollowPath`. RViz's **Nav2 Goal** tool continues using the classical NavFn planner. Run DQN from its own command below.
+
+With the simulation and Nav2 terminals running, preview a learned route without moving:
+
+```bash
+source scripts/dqn_env.bash
+python -m maze_dqn.follow --model models/dqn/maze_dqn.pt --goal-cell 4
+```
+
+Add `--execute` to drive to cell 4 in the bottom corridor, or choose the other trained goals 11 and 35 (top-right). Do not send a competing RViz goal during execution:
+
+```bash
+python -m maze_dqn.follow --model models/dqn/maze_dqn.pt \
+  --goal-cell 4 --yaw 0 --execute --output reports/my-dqn-bottom.json
+python -m maze_dqn.follow --model models/dqn/maze_dqn.pt \
+  --goal-cell 35 --yaw 1.5707963268 --execute --output reports/my-dqn-top-right.json
+```
+
+Training is offline in the fixed SDF-derived grid, followed by separate Gazebo execution. It does not learn steering from LiDAR or establish performance on new mazes. The supplied checkpoint and all three training seeds' results are documented in the DQN report.
 
 ## Genuine LiDAR SLAM (separate mode)
 
