@@ -1,0 +1,218 @@
+Learned cell route: [35, 34, 28, 27, 33, 32, 26, 25, 31, 30, 24, 18, 12, 6, 7, 1, 2, 3, 4]
+DQN waypoint 1/18: (0.75, 1.25)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.0008583199996792246, "map": {"x": 1.1945872244244464, "y": 1.2278657775527264, "yaw": 1.414188385916152}, "gazebo": {"x": 1.2006767328200942, "y": 1.227241902360344, "yaw": 1.3948636218929649}, "clearance": 0.11775809763965597}
+{"seconds": 10.016455864002637, "map": {"x": 0.7796552753539796, "y": 1.2438007834047848, "yaw": 3.0667979670693386}, "gazebo": {"x": 0.7886598197878414, "y": 1.2508239442236206, "yaw": 3.0525092818385113}, "clearance": 0.09417605577637936}
+{"seconds": 20.02655807300107, "map": {"x": 0.7795724172652143, "y": 1.2427377744344978, "yaw": 2.930540357952947}, "gazebo": {"x": 0.788004263184153, "y": 1.2509109737022186, "yaw": 2.904628325734619}, "clearance": 0.0940890262977814}
+DQN waypoint 2/18: (0.75, 0.75)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.004102269998838892, "map": {"x": 0.7891840643065682, "y": 1.2510555693250225, "yaw": -1.670065851342139}, "gazebo": {"x": 0.8029243910273782, "y": 1.2567433456754493, "yaw": -1.6839803625217848}, "clearance": 0.08825665432455068}
+DQN waypoint 3/18: (0.25, 0.75)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.0013249840012576897, "map": {"x": 0.7335554713582235, "y": 0.7706412470714783, "yaw": -2.949154761049441}, "gazebo": {"x": 0.7335919875296939, "y": 0.7960239123652555, "yaw": -2.9799077991239127}, "clearance": 0.1114080124703061}
+DQN waypoint 4/18: (0.25, 1.25)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.001049636000971077, "map": {"x": 0.2629310184459155, "y": 0.7662479470765409, "yaw": 1.7251559079631738}, "gazebo": {"x": 0.28529028724263955, "y": 0.7971221439264686, "yaw": 1.72996822462592}, "clearance": 0.13029028724263952}
+DQN waypoint 5/18: (-0.25, 1.25)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.0026459979999344796, "map": {"x": 0.2636157769574021, "y": 1.200472939294964, "yaw": 2.941649273600155}, "gazebo": {"x": 0.260619146554968, "y": 1.2162915003504167, "yaw": 2.9939383577429486}, "clearance": 0.08438085344503202}
+DQN waypoint 6/18: (-0.25, 0.75)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.003615585999796167, "map": {"x": -0.20132703736873037, "y": 1.2466303740079039, "yaw": -1.7057918352603119}, "gazebo": {"x": -0.1812881494541899, "y": 1.2446861518684644, "yaw": -1.6951029360442218}, "clearance": 0.10031384813153557}
+{"seconds": 10.014725062999787, "map": {"x": -0.2623152979665737, "y": 0.7905058077958694, "yaw": -1.409153805080902}, "gazebo": {"x": -0.25387956039306564, "y": 0.8022996853432632, "yaw": -1.4068026104548994}, "clearance": 0.09887956039306564}
+{"seconds": 20.02485078799873, "map": {"x": -0.2623280764079823, "y": 0.7652388320410807, "yaw": -2.7165386934875984}, "gazebo": {"x": -0.2580018065278859, "y": 0.7884961754561122, "yaw": -2.711698595460055}, "clearance": 0.1030018065278859}
+DQN waypoint 7/18: (-0.75, 0.75)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.004144758000620641, "map": {"x": -0.27356995050967337, "y": 0.7697876542922313, "yaw": -3.035834430199963}, "gazebo": {"x": -0.2605495134915838, "y": 0.7879133799439004, "yaw": -3.073881849248338}, "clearance": 0.10554951349158379}
+DQN waypoint 8/18: (-0.75, 1.25)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.002994178001245018, "map": {"x": -0.7128231322286456, "y": 0.7746716036659655, "yaw": 1.6941519799642686}, "gazebo": {"x": -0.7028841536275263, "y": 0.7863931633099089, "yaw": 1.71329909657715}, "clearance": 0.14211584637247365}
+{
+  "passed": false,
+  "readiness": {
+    "pose": {
+      "x": 1.1945872244244464,
+      "y": 1.2278657775527264,
+      "yaw": 1.414188385916152
+    },
+    "lifecycle": {
+      "amcl": "active",
+      "controller_server": "active",
+      "velocity_smoother": "active",
+      "collision_monitor": "active"
+    }
+  },
+  "policy": {
+    "start": 35,
+    "goal": 4,
+    "success": true,
+    "path": [
+      35,
+      34,
+      28,
+      27,
+      33,
+      32,
+      26,
+      25,
+      31,
+      30,
+      24,
+      18,
+      12,
+      6,
+      7,
+      1,
+      2,
+      3,
+      4
+    ],
+    "actions": [
+      2,
+      3,
+      2,
+      1,
+      2,
+      3,
+      2,
+      1,
+      2,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "steps": 18,
+    "wall_attempts": 0,
+    "return": 9.936
+  },
+  "maze_signature": "a7fcd0157f6dae50a5803404622d926add855402a78f2a63cc06b6c186530204",
+  "model": "models/dqn/maze_dqn.pt",
+  "executed": true,
+  "route_xy": [
+    [
+      1.25,
+      1.25
+    ],
+    [
+      0.75,
+      1.25
+    ],
+    [
+      0.75,
+      0.75
+    ],
+    [
+      0.25,
+      0.75
+    ],
+    [
+      0.25,
+      1.25
+    ],
+    [
+      -0.25,
+      1.25
+    ],
+    [
+      -0.25,
+      0.75
+    ],
+    [
+      -0.75,
+      0.75
+    ],
+    [
+      -0.75,
+      1.25
+    ],
+    [
+      -1.25,
+      1.25
+    ],
+    [
+      -1.25,
+      0.75
+    ],
+    [
+      -1.25,
+      0.25
+    ],
+    [
+      -1.25,
+      -0.25
+    ],
+    [
+      -1.25,
+      -0.75
+    ],
+    [
+      -0.75,
+      -0.75
+    ],
+    [
+      -0.75,
+      -1.25
+    ],
+    [
+      -0.25,
+      -1.25
+    ],
+    [
+      0.25,
+      -1.25
+    ],
+    [
+      0.75,
+      -1.25
+    ]
+  ],
+  "dense_path_points": 359,
+  "planned_minimum_clearance": 0.095,
+  "goal_yaw": 0.0,
+  "controller_tolerance_restored": true,
+  "navigation": {
+    "passed": false,
+    "status": 4,
+    "error_code": 0,
+    "error_msg": "",
+    "watchdog": null,
+    "wall_seconds": 106.35617650399945,
+    "start_truth": {
+      "x": 1.2006767328200942,
+      "y": 1.227241902360344,
+      "yaw": 1.3948636218929649
+    },
+    "final_truth": {
+      "x": -0.7387494744957318,
+      "y": 1.1848133118281068,
+      "yaw": 2.938874705146247
+    },
+    "final_map_pose": {
+      "x": -0.7462476485798044,
+      "y": 1.1807448237099574,
+      "yaw": 2.932288965073547
+    },
+    "gazebo_position_error": 0.06615042432926513,
+    "map_position_error": 0.06935675586520412,
+    "gazebo_yaw_error": 0.20271794844354618,
+    "moving_commands": 1981,
+    "intermediate_waypoint": true,
+    "final_command": {
+      "linear_x": 0.0,
+      "angular_z": 0.0
+    },
+    "minimum_clearance": 0.07085788202194812,
+    "collision_check": "Sampled 0.13 m circle against SDF boxes; no contact sensor",
+    "execution": "Learned waypoint sequence; FollowPath/DWB per leg; no NavFn calls",
+    "waypoints_completed": 7,
+    "waypoints_requested": 18,
+    "waypoint_xy_tolerance": 0.08,
+    "final_xy_tolerance": 0.06
+  }
+}

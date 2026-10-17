@@ -1,0 +1,14 @@
+{
+  "duplicate_simulation": {
+    "passed": true,
+    "returncode": 1
+  },
+  "duplicate_nav2": {
+    "passed": true,
+    "returncode": 1
+  },
+  "slam_amcl_conflict": {
+    "passed": true,
+    "returncode": 1
+  }
+}

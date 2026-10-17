@@ -1,0 +1,104 @@
+Learned cell route: [31, 30, 24, 18, 12, 6, 7, 1, 2, 3, 4]
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.003667097000288777, "map": {"x": -0.7752617330642093, "y": 1.02034907011172, "yaw": -0.15873859021614334}, "gazebo": {"x": -0.7574422604461929, "y": 1.0244825717033141, "yaw": -0.14118113622475606}, "clearance": 0.08893096253607}
+{
+  "passed": false,
+  "readiness": {
+    "pose": {
+      "x": -0.7752617330642093,
+      "y": 1.02034907011172,
+      "yaw": -0.15873859021614334
+    },
+    "lifecycle": {
+      "amcl": "active",
+      "controller_server": "active",
+      "velocity_smoother": "active",
+      "collision_monitor": "active"
+    }
+  },
+  "policy": {
+    "start": 31,
+    "goal": 4,
+    "success": true,
+    "path": [
+      31,
+      30,
+      24,
+      18,
+      12,
+      6,
+      7,
+      1,
+      2,
+      3,
+      4
+    ],
+    "actions": [
+      2,
+      3,
+      3,
+      3,
+      3,
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "steps": 10,
+    "wall_attempts": 0,
+    "return": 10.44
+  },
+  "maze_signature": "a7fcd0157f6dae50a5803404622d926add855402a78f2a63cc06b6c186530204",
+  "model": "models/dqn/maze_dqn.pt",
+  "executed": true,
+  "route_xy": [
+    [
+      -0.75,
+      1.25
+    ],
+    [
+      -1.25,
+      1.25
+    ],
+    [
+      -1.25,
+      0.75
+    ],
+    [
+      -1.25,
+      0.25
+    ],
+    [
+      -1.25,
+      -0.25
+    ],
+    [
+      -1.25,
+      -0.75
+    ],
+    [
+      -0.75,
+      -0.75
+    ],
+    [
+      -0.75,
+      -1.25
+    ],
+    [
+      -0.25,
+      -1.25
+    ],
+    [
+      0.25,
+      -1.25
+    ],
+    [
+      0.75,
+      -1.25
+    ]
+  ],
+  "dense_path_points": 211,
+  "planned_minimum_clearance": 0.07077215925751476,
+  "goal_yaw": 0.0
+}

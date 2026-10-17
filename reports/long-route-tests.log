@@ -1,0 +1,195 @@
+Starting >>> maze_world
+UpdateCTestConfiguration  from :/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/CTestConfiguration.ini
+Parse Config file:/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/CTestConfiguration.ini
+   Site: chanupa-ASUSLaptop-Q530VJ
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261017-1020 - Experimental
+UpdateCTestConfiguration  from :/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/CTestConfiguration.ini
+Parse Config file:/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/CTestConfiguration.ini
+Test project /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: flake8
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/flake8.xunit.xml" "--package-name" "maze_world" "--output-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/flake8.xunit.xml"
+1: Working Directory: /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_world
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_world':
+1:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/flake8.xunit.xml
+1: 
+1: 2 files checked
+1: No problems found
+1: 
+1: Checked files:
+1: 
+1: * ./launch/simulation.launch.py
+1: * ./launch/launch_support.py
+1: -- run_test.py: return code 0
+1: -- run_test.py: verify result file '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/flake8.xunit.xml'
+1/4 Test #1: flake8 ...........................   Passed    0.35 sec
+test 2
+    Start 2: lint_cmake
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/lint_cmake.xunit.xml" "--package-name" "maze_world" "--output-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/jazzy/bin/ament_lint_cmake" "--xunit-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/lint_cmake.xunit.xml"
+2: Working Directory: /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_world
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_world':
+2:  - /opt/ros/jazzy/bin/ament_lint_cmake --xunit-file /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/lint_cmake.xunit.xml
+2: 
+2: No problems found
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/lint_cmake.xunit.xml'
+2/4 Test #2: lint_cmake .......................   Passed    0.13 sec
+test 3
+    Start 3: pep257
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/pep257.xunit.xml" "--package-name" "maze_world" "--output-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/ament_pep257/pep257.txt" "--command" "/opt/ros/jazzy/bin/ament_pep257" "--xunit-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/pep257.xunit.xml"
+3: Working Directory: /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_world
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_world':
+3:  - /opt/ros/jazzy/bin/ament_pep257 --xunit-file /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/pep257.xunit.xml
+3: checking ./launch/launch_support.py
+3: checking ./launch/simulation.launch.py
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/pep257.xunit.xml'
+3/4 Test #3: pep257 ...........................   Passed    0.19 sec
+test 4
+    Start 4: xmllint
+
+4: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/xmllint.xunit.xml" "--package-name" "maze_world" "--output-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/xmllint.xunit.xml"
+4: Working Directory: /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_world
+4: Test timeout computed to be: 60
+4: -- run_test.py: invoking following command in '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_world':
+4:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/xmllint.xunit.xml
+4: File 'package.xml' is valid
+4: 
+4: No problems found
+4: -- run_test.py: return code 0
+4: -- run_test.py: verify result file '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_world/test_results/maze_world/xmllint.xunit.xml'
+4/4 Test #4: xmllint ..........................   Passed    0.13 sec
+
+100% tests passed, 0 tests failed out of 4
+
+Label Time Summary:
+flake8        =   0.35 sec*proc (1 test)
+lint_cmake    =   0.13 sec*proc (1 test)
+linter        =   0.79 sec*proc (4 tests)
+pep257        =   0.19 sec*proc (1 test)
+xmllint       =   0.13 sec*proc (1 test)
+
+Total Test time (real) =   0.80 sec
+Finished <<< maze_world [0.83s]
+Starting >>> maze_navigation
+UpdateCTestConfiguration  from :/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/CTestConfiguration.ini
+Parse Config file:/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/CTestConfiguration.ini
+   Site: chanupa-ASUSLaptop-Q530VJ
+   Build name: (empty)
+ Add coverage exclude regular expressions.
+Create new tag: 20261017-1020 - Experimental
+UpdateCTestConfiguration  from :/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/CTestConfiguration.ini
+Parse Config file:/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/CTestConfiguration.ini
+Test project /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation
+Constructing a list of tests
+Done constructing a list of tests
+Updating test list for fixtures
+Added 0 tests to meet fixture requirements
+Checking test dependency graph...
+Checking test dependency graph end
+test 1
+    Start 1: test_long_route
+
+1: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/test_long_route.gtest.xml" "--package-name" "maze_navigation" "--output-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/ament_cmake_gtest/test_long_route.txt" "--command" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_long_route" "--gtest_output=xml:/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/test_long_route.gtest.xml"
+1: Working Directory: /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation
+1: Test timeout computed to be: 60
+1: -- run_test.py: invoking following command in '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation':
+1:  - /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_long_route --gtest_output=xml:/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/test_long_route.gtest.xml
+1: Running main() from /opt/ros/jazzy/src/gtest_vendor/src/gtest_main.cc
+1: [==========] Running 5 tests from 1 test suite.
+1: [----------] Global test environment set-up.
+1: [----------] 5 tests from MazeNavfn
+1: [ RUN      ] MazeNavfn.LongConnectedRouteExceedsStockBudget
+1: [ERROR] [1792232438.859850931] [NavfnPlanner]: Failed to create a plan from potential when a legal potential was found. This shouldn't happen.
+1: [ERROR] [1792232438.860302044] [NavfnPlanner]: Failed to create a plan from potential when a legal potential was found. This shouldn't happen.
+1: [INFO] [1792232438.860561301] [NavfnPlanner]: NavFn extended extraction succeeded: 531 points (stock limit 512)
+1: [INFO] [1792232438.860592943] [NavfnPlanner]: Destroying plugin GridBased of type NavfnPlanner
+1: [       OK ] MazeNavfn.LongConnectedRouteExceedsStockBudget (1 ms)
+1: [ RUN      ] MazeNavfn.ShortRouteRetainsStockBehavior
+1: [INFO] [1792232438.860853775] [NavfnPlanner]: Destroying plugin GridBased of type NavfnPlanner
+1: [       OK ] MazeNavfn.ShortRouteRetainsStockBehavior (0 ms)
+1: [ RUN      ] MazeNavfn.DisconnectedGoalRemainsRejected
+1: [ERROR] [1792232438.861150006] [NavfnPlanner]: Failed to create a plan from potential when a legal potential was found. This shouldn't happen.
+1: [INFO] [1792232438.861394659] [NavfnPlanner]: Destroying plugin GridBased of type NavfnPlanner
+1: [       OK ] MazeNavfn.DisconnectedGoalRemainsRejected (0 ms)
+1: [ RUN      ] MazeNavfn.CancellationIsRespected
+1: [INFO] [1792232438.861479448] [NavfnPlanner]: Destroying plugin GridBased of type NavfnPlanner
+1: [       OK ] MazeNavfn.CancellationIsRespected (0 ms)
+1: [ RUN      ] MazeNavfn.CancellationBeforeExtendedExtractionIsRespected
+1: [ERROR] [1792232438.861779771] [NavfnPlanner]: Failed to create a plan from potential when a legal potential was found. This shouldn't happen.
+1: [INFO] [1792232438.861799923] [NavfnPlanner]: Destroying plugin GridBased of type NavfnPlanner
+1: [       OK ] MazeNavfn.CancellationBeforeExtendedExtractionIsRespected (0 ms)
+1: [----------] 5 tests from MazeNavfn (2 ms total)
+1: 
+1: [----------] Global test environment tear-down
+1: [==========] 5 tests from 1 test suite ran. (2 ms total)
+1: [  PASSED  ] 5 tests.
+1: -- run_test.py: return code 0
+1: -- run_test.py: inject classname prefix into gtest result file '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/test_long_route.gtest.xml'
+1: -- run_test.py: verify result file '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/test_long_route.gtest.xml'
+1/3 Test #1: test_long_route ..................   Passed    0.12 sec
+test 2
+    Start 2: flake8
+
+2: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/flake8.xunit.xml" "--package-name" "maze_navigation" "--output-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/ament_flake8/flake8.txt" "--command" "/opt/ros/jazzy/bin/ament_flake8" "--xunit-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/flake8.xunit.xml"
+2: Working Directory: /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_navigation
+2: Test timeout computed to be: 60
+2: -- run_test.py: invoking following command in '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_navigation':
+2:  - /opt/ros/jazzy/bin/ament_flake8 --xunit-file /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/flake8.xunit.xml
+2: 
+2: 4 files checked
+2: No problems found
+2: 
+2: Checked files:
+2: 
+2: * ./launch/slam.launch.py
+2: * ./launch/nav2.launch.py
+2: * ./scripts/initialize_localization.py
+2: * ./scripts/verify_navigation.py
+2: -- run_test.py: return code 0
+2: -- run_test.py: verify result file '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/flake8.xunit.xml'
+2/3 Test #2: flake8 ...........................   Passed    0.46 sec
+test 3
+    Start 3: xmllint
+
+3: Test command: /usr/bin/python3 "-u" "/opt/ros/jazzy/share/ament_cmake_test/cmake/run_test.py" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/xmllint.xunit.xml" "--package-name" "maze_navigation" "--output-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/ament_xmllint/xmllint.txt" "--command" "/opt/ros/jazzy/bin/ament_xmllint" "--xunit-file" "/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/xmllint.xunit.xml"
+3: Working Directory: /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_navigation
+3: Test timeout computed to be: 60
+3: -- run_test.py: invoking following command in '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/src/maze_navigation':
+3:  - /opt/ros/jazzy/bin/ament_xmllint --xunit-file /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/xmllint.xunit.xml
+3: File 'package.xml' is valid
+3: 
+3: File 'planner_plugins.xml' is valid
+3: 
+3: No problems found
+3: -- run_test.py: return code 0
+3: -- run_test.py: verify result file '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/build/maze_navigation/test_results/maze_navigation/xmllint.xunit.xml'
+3/3 Test #3: xmllint ..........................   Passed    0.16 sec
+
+100% tests passed, 0 tests failed out of 3
+
+Label Time Summary:
+flake8     =   0.46 sec*proc (1 test)
+gtest      =   0.12 sec*proc (1 test)
+linter     =   0.62 sec*proc (2 tests)
+xmllint    =   0.16 sec*proc (1 test)
+
+Total Test time (real) =   0.73 sec
+Finished <<< maze_navigation [0.76s]
+
+Summary: 2 packages finished [1.72s]

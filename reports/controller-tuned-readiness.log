@@ -1,0 +1,1 @@
+VERIFICATION FAILED: Lookup would require extrapolation into the past.  Requested time 1322.000000 but the earliest data is at time 1332.220000, when looking up transform from frame [base_footprint] to frame [map]

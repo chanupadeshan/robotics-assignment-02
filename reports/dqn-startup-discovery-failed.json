@@ -1,0 +1,5 @@
+{
+  "passed": false,
+  "error": "Missing controller_server lifecycle service",
+  "controller_tolerance_restored": true
+}

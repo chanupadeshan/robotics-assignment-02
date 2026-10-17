@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "wall_links": 20,
+  "map_size": [
+    128,
+    128
+  ],
+  "occupied_pixels": 1895,
+  "mismatched_pixels": 0,
+  "world_sha256": "e28954056f14e86b34705e450eee759e78046dd53a0fbf3b89349dc5aae16b78",
+  "map_sha256": "af951326822d48a3408198774042b061319b012d335e6306602cf6f0041773b3"
+}

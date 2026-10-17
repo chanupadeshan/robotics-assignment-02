@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "test": "stationary LiDAR SLAM startup and map save; not a complete maze survey",
+  "lifecycle": "active",
+  "map_dimensions": [
+    44,
+    62
+  ],
+  "resolution": 0.025,
+  "pixel_counts": {
+    "205": 1862,
+    "0": 132,
+    "254": 734
+  },
+  "map_save_timeout_seconds": 10.0
+}

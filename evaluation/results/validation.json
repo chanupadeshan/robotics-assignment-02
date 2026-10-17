@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "source_hashes_checked": 21,
+  "pairs_checked": 105,
+  "nav2_returned_routes": 105,
+  "nav2_envelope_checked_routes": 96,
+  "nav2_clearance_flags": 9,
+  "dqn_successes": 105,
+  "note": "Artifact audit passes even when planned-clearance flags remain in results."
+}

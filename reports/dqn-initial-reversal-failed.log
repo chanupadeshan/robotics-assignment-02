@@ -1,0 +1,195 @@
+Learned cell route: [4, 3, 2, 1, 7, 6, 12, 18, 24, 30, 31, 25, 26, 32, 33, 27, 28, 34, 35]
+DQN waypoint 1/18: (0.25, -1.25)
+FollowPath goal accepted (learned DQN path; NavFn bypassed).
+{"seconds": 0.002728800001932541, "map": {"x": 0.706426155710679, "y": -1.2643957093444413, "yaw": 0.06993613912547651}, "gazebo": {"x": 0.7215772362009287, "y": -1.2497244682427537, "yaw": 0.08231747041438638}, "clearance": 0.09472446824275374}
+{"seconds": 10.013237008999567, "map": {"x": 0.8362833885494054, "y": -1.2469721194733583, "yaw": -0.007613379055493218}, "gazebo": {"x": 0.8386507151190139, "y": -1.2292701942279622, "yaw": -0.013224714818088661}, "clearance": 0.07427019422796224}
+{
+  "passed": false,
+  "readiness": {
+    "pose": {
+      "x": 0.706426155710679,
+      "y": -1.2643957093444413,
+      "yaw": 0.06993613912547651
+    },
+    "lifecycle": {
+      "amcl": "active",
+      "controller_server": "active",
+      "velocity_smoother": "active",
+      "collision_monitor": "active"
+    }
+  },
+  "policy": {
+    "start": 4,
+    "goal": 35,
+    "success": true,
+    "path": [
+      4,
+      3,
+      2,
+      1,
+      7,
+      6,
+      12,
+      18,
+      24,
+      30,
+      31,
+      25,
+      26,
+      32,
+      33,
+      27,
+      28,
+      34,
+      35
+    ],
+    "actions": [
+      2,
+      2,
+      2,
+      1,
+      2,
+      1,
+      1,
+      1,
+      1,
+      0,
+      3,
+      0,
+      1,
+      0,
+      3,
+      0,
+      1,
+      0
+    ],
+    "steps": 18,
+    "wall_attempts": 0,
+    "return": 9.932
+  },
+  "maze_signature": "a7fcd0157f6dae50a5803404622d926add855402a78f2a63cc06b6c186530204",
+  "model": "models/dqn/maze_dqn.pt",
+  "executed": true,
+  "route_xy": [
+    [
+      0.75,
+      -1.25
+    ],
+    [
+      0.25,
+      -1.25
+    ],
+    [
+      -0.25,
+      -1.25
+    ],
+    [
+      -0.75,
+      -1.25
+    ],
+    [
+      -0.75,
+      -0.75
+    ],
+    [
+      -1.25,
+      -0.75
+    ],
+    [
+      -1.25,
+      -0.25
+    ],
+    [
+      -1.25,
+      0.25
+    ],
+    [
+      -1.25,
+      0.75
+    ],
+    [
+      -1.25,
+      1.25
+    ],
+    [
+      -0.75,
+      1.25
+    ],
+    [
+      -0.75,
+      0.75
+    ],
+    [
+      -0.25,
+      0.75
+    ],
+    [
+      -0.25,
+      1.25
+    ],
+    [
+      0.25,
+      1.25
+    ],
+    [
+      0.25,
+      0.75
+    ],
+    [
+      0.75,
+      0.75
+    ],
+    [
+      0.75,
+      1.25
+    ],
+    [
+      1.25,
+      1.25
+    ]
+  ],
+  "dense_path_points": 360,
+  "planned_minimum_clearance": 0.08060429065555866,
+  "goal_yaw": 1.5707963268,
+  "controller_tolerance_restored": true,
+  "navigation": {
+    "passed": false,
+    "status": 6,
+    "error_code": 103,
+    "error_msg": "",
+    "watchdog": null,
+    "wall_seconds": 13.310084879001806,
+    "start_truth": {
+      "x": 0.7215772362009287,
+      "y": -1.2497244682427537,
+      "yaw": 0.08231747041438638
+    },
+    "final_truth": {
+      "x": 0.9293785185856832,
+      "y": -1.2575576548992722,
+      "yaw": -0.35550080434900627
+    },
+    "final_map_pose": {
+      "x": 0.9232734315487048,
+      "y": -1.2705911552221383,
+      "yaw": -0.360839171596267
+    },
+    "gazebo_position_error": 0.6794205543426354,
+    "map_position_error": 0.6735882342371715,
+    "gazebo_yaw_error": 2.7860918492407873,
+    "moving_commands": 249,
+    "intermediate_waypoint": true,
+    "verified_heading_tolerance": 0.3,
+    "final_command": {
+      "linear_x": 0.0,
+      "angular_z": 0.0
+    },
+    "minimum_clearance": 0.0742485504309334,
+    "collision_check": "Sampled 0.13 m circle against SDF boxes; no contact sensor",
+    "execution": "Learned waypoint sequence; FollowPath/DWB per leg; no NavFn calls",
+    "waypoints_completed": 0,
+    "waypoints_requested": 18,
+    "waypoint_xy_tolerance": 0.08,
+    "final_xy_tolerance": 0.06
+  }
+}

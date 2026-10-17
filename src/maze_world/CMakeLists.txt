@@ -24,7 +24,7 @@ if(BUILD_TESTING)
 endif()
 
 install(
-  DIRECTORY launch worlds models
+  DIRECTORY launch worlds
   DESTINATION share/${PROJECT_NAME}
 )
 

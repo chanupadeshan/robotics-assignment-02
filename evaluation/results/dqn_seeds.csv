@@ -1,0 +1,4 @@
+seed,episodes,transitions,training_seconds,successes,trials,heldout_initial_successes,deployed
+7,2000,50369,21.05467960399983,102,105,18,False
+17,2000,49175,19.049930778001,105,105,21,True
+27,2000,45899,18.750580821997573,105,105,21,False

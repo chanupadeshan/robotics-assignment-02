@@ -1,0 +1,12 @@
+[INFO] [1792230108.369323429] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1792230108.369501278] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1792230108.405051898] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1792230109.564793324] [rviz2]: Trying to create a map of size 128 x 128 using 1 swatches
+[ERROR] [1792230109.615833437] [rviz2]: rviz/glsl120/indexed_8bit_image.vert
+rviz/glsl120/indexed_8bit_image.frag
+ GLSL link result : 
+active samplers with a different type refer to the same texture image unit
+[INFO] [1792230110.814756510] [rviz2]: Trying to create a map of size 128 x 128 using 1 swatches
+[INFO] [1792230110.914405686] [rviz2]: Trying to create a map of size 80 x 80 using 1 swatches
+[INFO] [1792230119.078922698] [maze_rviz_review]: Message Filter dropping message: frame 'base_scan' at time 92.400 for reason 'the timestamp on the message is earlier than all the data in the transform cache'
+[INFO] [1792230153.940936834] [rclcpp]: signal_handler(SIGINT/SIGTERM)

@@ -1,0 +1,8 @@
+{"episode": 250, "frames": 13445, "train_success": 0.10714285714285714, "train_greedy_mean_return": -1.495095238095238, "seconds": 4.960055473999091}
+{"episode": 500, "frames": 25532, "train_success": 0.5595238095238095, "train_greedy_mean_return": 4.445142857142857, "seconds": 9.882572902999527}
+{"episode": 750, "frames": 32102, "train_success": 0.8809523809523809, "train_greedy_mean_return": 8.548357142857142, "seconds": 12.659542010002042}
+{"episode": 1000, "frames": 36278, "train_success": 0.9285714285714286, "train_greedy_mean_return": 9.161833333333334, "seconds": 14.452002259000437}
+{"episode": 1250, "frames": 40340, "train_success": 0.9642857142857143, "train_greedy_mean_return": 9.61902380952381, "seconds": 16.27952964100041}
+{"episode": 1500, "frames": 43841, "train_success": 1.0, "train_greedy_mean_return": 10.069190476190476, "seconds": 18.076917409001908}
+{"episode": 1750, "frames": 47046, "train_success": 1.0, "train_greedy_mean_return": 10.071000000000002, "seconds": 19.402937730999838}
+{"episode": 2000, "frames": 50369, "train_success": 1.0, "train_greedy_mean_return": 10.071000000000002, "seconds": 21.053888259000814}

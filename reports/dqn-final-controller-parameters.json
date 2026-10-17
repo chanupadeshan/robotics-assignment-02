@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "values": {
+    "goal_checker.xy_goal_tolerance": 0.06,
+    "goal_checker.yaw_goal_tolerance": 0.12,
+    "FollowPath.max_vel_x": 0.1,
+    "FollowPath.max_vel_theta": 0.65
+  },
+  "expected": {
+    "goal_checker.xy_goal_tolerance": 0.06,
+    "goal_checker.yaw_goal_tolerance": 0.12,
+    "FollowPath.max_vel_x": 0.1,
+    "FollowPath.max_vel_theta": 0.65
+  }
+}

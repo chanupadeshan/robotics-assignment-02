@@ -1,0 +1,23 @@
+{
+  "models/dqn/maze_dqn.pt": "6efc2c95b54d2f008b609988b760e3027667fe0a46e64e44bae0e0328aced656",
+  "src/maze_world/worlds/maze_fixed.sdf": "e28954056f14e86b34705e450eee759e78046dd53a0fbf3b89349dc5aae16b78",
+  "src/maze_navigation/maps/maze_map.pgm": "af951326822d48a3408198774042b061319b012d335e6306602cf6f0041773b3",
+  "src/maze_navigation/maps/maze_map.yaml": "b171dd57303c72cf0c94165624c5214c06c929028c98de91c4965e40e9316b73",
+  "src/maze_navigation/config/nav2_params.yaml": "29fd3c88510a7a2cc3cc75615d69436af05a369382c7e585ca8f9572e99b8247",
+  "evaluation/results/nav2_plans.json": "41d3adc0242effcbf492d2721eefafbf65977f9f6d1b7ece5566138c4a3a8baa",
+  "evaluation/run_comparison.py": "0aefe5e804c5212e5e7140b104e918176561866bc9d2260c8fc5e7acdd2d9c49",
+  "evaluation/render_report.py": "4ca0383b913a8fa634506b4574d05096e712f5ed4e5b62ef15f2a3360d144b51",
+  "evaluation/validate_results.py": "829f1b9cf055f9ac4a4d2ada73af6d8747e321932b02898e5783df09680531d3",
+  "src/maze_dqn/maze_dqn/agent.py": "78f1f09c294541825aabb8881d748c86436b59c0062408caa20b24c820dc9414",
+  "src/maze_dqn/maze_dqn/environment.py": "d152e0cf734f611c2108598abcd8f8ea72ab0f2fea64a9f8b5b358f781db0dee",
+  "reports/top-right-return-trial.json": "b6ccf5f0c357e067f22b05eea72119d10831a5e331ebdb58db286c6ed62f0619",
+  "reports/top-right-full-route.json": "5ec83ba3d58514ce451b00526cfd91063814ce6d4a4c2842fde16d4e17d07d5f",
+  "reports/dqn-final-bottom.json": "10566aa16a1815acd24a6428a54d47427a217a51088fb8985581d3ae505891d3",
+  "reports/dqn-final-top-right.json": "3854ac247f0b7224a16a56919bc14066433e5c4fbc13e2f6351c9d69cfab1c17",
+  "reports/dqn-seed7-evaluation.json": "d397030e602bc0711387c2a0190264a04b608a089a9598c548f849dffe0d7411",
+  "reports/dqn-seed17-evaluation.json": "41376de8026a2de48fffe25ff4a0096987a6e03e90cc5f5b958d3dcd11c98295",
+  "reports/dqn-seed27-evaluation.json": "ec1a32f230e0083c1c888867aaaca0edba2a47ebe9f0205f97fb284403403d24",
+  "reports/dqn-training/seed7/training-summary.json": "6a8e8dac5082a359115fb66d47567f33b2345f9e16eaeaa35b1cf61f69e183ba",
+  "reports/dqn-training/seed17/training-summary.json": "26cbfc460cb65d12cec75547e21555801a173120575abd700bc2dbb1188f6112",
+  "reports/dqn-training/seed27/training-summary.json": "5722eab78c27aef460f01d1421f9292ae0cd14e7a39ab1bfdecd1a44a5035b7e"
+}

@@ -1,0 +1,16 @@
+[INFO] [1792229914.256815606] [map_saver]: 
+	map_saver lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792229914.256892833] [map_saver]: Creating
+[INFO] [1792229914.256923895] [map_saver]: Configuring
+[INFO] [1792229914.258719797] [map_saver]: Saving map from 'map' topic to '/mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/reports/slam-smoke/maze_lidar_smoke' file
+[WARN] [1792229914.258737831] [map_saver]: Free threshold unspecified. Setting it to default value: 0.250000
+[WARN] [1792229914.258744124] [map_saver]: Occupied threshold unspecified. Setting it to default value: 0.650000
+[WARN] [1792229914.966224862] [map_io]: Image format unspecified. Setting it to: pgm
+[INFO] [1792229914.966350461] [map_io]: Received a 44 X 62 map @ 0.025 m/pix
+[INFO] [1792229914.973369836] [map_io]: Writing map occupancy data to /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/reports/slam-smoke/maze_lidar_smoke.pgm
+[INFO] [1792229914.974042212] [map_io]: Writing map metadata to /mnt/storage/Projects-external/robotics/turtlebot3_maze_ws/reports/slam-smoke/maze_lidar_smoke.yaml
+[INFO] [1792229914.974223685] [map_io]: Map saved
+[INFO] [1792229914.974238084] [map_saver]: Map saved successfully
+[INFO] [1792229914.975721119] [map_saver]: Destroying

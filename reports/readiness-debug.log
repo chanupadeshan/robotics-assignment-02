@@ -1,0 +1,241 @@
+Timeout (0:00:10)!
+Thread 0x00007f028cdff6c0 (most recent call first):
+  File "src/maze_navigation/scripts/verify_navigation.py", line 85 in read_truth
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1687 in create_client
+  File "src/maze_navigation/scripts/verify_navigation.py", line 139 in readiness
+  File "src/maze_navigation/scripts/verify_navigation.py", line 301 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f028cdff6c0 (most recent call first):
+  File "src/maze_navigation/scripts/verify_navigation.py", line 85 in read_truth
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1687 in create_client
+  File "src/maze_navigation/scripts/verify_navigation.py", line 139 in readiness
+  File "src/maze_navigation/scripts/verify_navigation.py", line 301 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f028cdff6c0 (most recent call first):
+  File "src/maze_navigation/scripts/verify_navigation.py", line 85 in read_truth
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1687 in create_client
+  File "src/maze_navigation/scripts/verify_navigation.py", line 149 in readiness
+  File "src/maze_navigation/scripts/verify_navigation.py", line 301 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f028cdff6c0 (most recent call first):
+  File "src/maze_navigation/scripts/verify_navigation.py", line 85 in read_truth
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1687 in create_client
+  File "src/maze_navigation/scripts/verify_navigation.py", line 149 in readiness
+  File "src/maze_navigation/scripts/verify_navigation.py", line 301 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f028cdff6c0 (most recent call first):
+  File "src/maze_navigation/scripts/verify_navigation.py", line 85 in read_truth
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1687 in create_client
+  File "src/maze_navigation/scripts/verify_navigation.py", line 149 in readiness
+  File "src/maze_navigation/scripts/verify_navigation.py", line 301 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f028cdff6c0 (most recent call first):
+  File "src/maze_navigation/scripts/verify_navigation.py", line 85 in read_truth
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/action/client.py", line 153 in __init__
+  File "src/maze_navigation/scripts/verify_navigation.py", line 187 in readiness
+  File "src/maze_navigation/scripts/verify_navigation.py", line 301 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f028cdff6c0 (most recent call first):
+  File "src/maze_navigation/scripts/verify_navigation.py", line 85 in read_truth
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/action/client.py", line 153 in __init__
+  File "src/maze_navigation/scripts/verify_navigation.py", line 187 in readiness
+  File "src/maze_navigation/scripts/verify_navigation.py", line 301 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f028cdff6c0 (most recent call first):
+  File "src/maze_navigation/scripts/verify_navigation.py", line 85 in read_truth
+  File "/usr/lib/python3.12/threading.py", line 1010 in run
+  File "/usr/lib/python3.12/threading.py", line 1073 in _bootstrap_inner
+  File "/usr/lib/python3.12/threading.py", line 1030 in _bootstrap
+
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/action/client.py", line 607 in destroy
+  File "src/maze_navigation/scripts/verify_navigation.py", line 190 in readiness
+  File "src/maze_navigation/scripts/verify_navigation.py", line 301 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+{
+  "lifecycle": {
+    "map_server": "active",
+    "amcl": "active",
+    "controller_server": "active",
+    "smoother_server": "active",
+    "planner_server": "active",
+    "behavior_server": "active",
+    "velocity_smoother": "active",
+    "collision_monitor": "active",
+    "bt_navigator": "active",
+    "local_costmap/local_costmap": "active",
+    "global_costmap/global_costmap": "active"
+  },
+  "use_sim_time": {
+    "map_server": true,
+    "amcl": true,
+    "controller_server": true,
+    "smoother_server": true,
+    "planner_server": true,
+    "behavior_server": true,
+    "velocity_smoother": true,
+    "collision_monitor": true,
+    "bt_navigator": true,
+    "local_costmap/local_costmap": true,
+    "global_costmap/global_costmap": true,
+    "robot_state_publisher": true
+  },
+  "rates": {
+    "/scan": {
+      "wall_hz": 1.0766901579738875,
+      "sim_hz": 1.1264822134387322
+    },
+    "/odom": {
+      "wall_hz": 10.573872189771262,
+      "sim_hz": 11.06525157232702
+    }
+  },
+  "scan_frame": "base_scan",
+  "map": {
+    "width": 128,
+    "height": 128,
+    "resolution": 0.02500000037252903
+  },
+  "cmd_vel_type": [
+    "geometry_msgs/msg/TwistStamped"
+  ],
+  "map_pose": {
+    "x": 1.1977491524571344,
+    "y": 1.2535556435928883,
+    "yaw": 1.449529607369442
+  },
+  "gazebo_pose": {
+    "x": 1.203500616442322,
+    "y": 1.2488547965462828,
+    "yaw": 1.4583303327424488
+  }
+}
+Timeout (0:00:10)!
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/subscription.py", line 101 in destroy
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1854 in destroy_subscription
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1958 in destroy_node
+  File "src/maze_navigation/scripts/verify_navigation.py", line 336 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/client.py", line 232 in destroy
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1870 in destroy_client
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1960 in destroy_node
+  File "src/maze_navigation/scripts/verify_navigation.py", line 336 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/client.py", line 232 in destroy
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1870 in destroy_client
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1960 in destroy_node
+  File "src/maze_navigation/scripts/verify_navigation.py", line 336 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/client.py", line 232 in destroy
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1870 in destroy_client
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1960 in destroy_node
+  File "src/maze_navigation/scripts/verify_navigation.py", line 336 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>
+Timeout (0:00:10)!
+Thread 0x00007f02b2df2740 (most recent call first):
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/service.py", line 123 in destroy
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1886 in destroy_service
+  File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/node.py", line 1962 in destroy_node
+  File "src/maze_navigation/scripts/verify_navigation.py", line 336 in main
+  File "src/maze_navigation/scripts/verify_navigation.py", line 342 in <module>
+  File "<frozen runpy>", line 88 in _run_code
+  File "<frozen runpy>", line 98 in _run_module_code
+  File "<frozen runpy>", line 286 in run_path
+  File "<stdin>", line 4 in <module>

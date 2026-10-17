@@ -1,0 +1,39 @@
+[INFO] [1792232263.839967188] [maze_route_test.planner_server]: 
+	planner_server lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792232263.840994313] [maze_route_test.planner_server]: Creating
+[INFO] [1792232263.844718338] [maze_route_test.global_costmap.global_costmap]: 
+	global_costmap lifecycle node launched. 
+	Waiting on external lifecycle transitions to activate
+	See https://design.ros2.org/articles/node_lifecycle.html for more information.
+[INFO] [1792232263.845022701] [maze_route_test.global_costmap.global_costmap]: Creating Costmap
+[INFO] [1792232265.070536496] [maze_route_test.planner_server]: Configuring
+[INFO] [1792232265.070713801] [maze_route_test.global_costmap.global_costmap]: Configuring
+[INFO] [1792232265.088613892] [maze_route_test.global_costmap.global_costmap]: Using plugin "static_layer"
+[INFO] [1792232265.095284514] [maze_route_test.global_costmap.global_costmap]: Subscribing to the map topic (/map) with transient local durability
+[INFO] [1792232265.098148030] [maze_route_test.global_costmap.global_costmap]: Initialized plugin "static_layer"
+[INFO] [1792232265.098214442] [maze_route_test.global_costmap.global_costmap]: Using plugin "obstacle_layer"
+[INFO] [1792232265.098599557] [maze_route_test.global_costmap.global_costmap]: Subscribed to Topics: scan
+[INFO] [1792232265.102646913] [maze_route_test.global_costmap.global_costmap]: Initialized plugin "obstacle_layer"
+[INFO] [1792232265.102703998] [maze_route_test.global_costmap.global_costmap]: Using plugin "inflation_layer"
+[INFO] [1792232265.103114348] [maze_route_test.global_costmap.global_costmap]: Initialized plugin "inflation_layer"
+[INFO] [1792232265.122190724] [maze_route_test.planner_server]: Created global planner plugin GridBased of type maze_navigation::MazeNavfnPlanner
+[INFO] [1792232265.122240526] [maze_route_test.planner_server]: Configuring plugin GridBased of type NavfnPlanner
+[INFO] [1792232265.122521920] [maze_route_test.planner_server]: Planner Server has GridBased  planners available.
+[INFO] [1792232265.130989681] [maze_route_test.planner_server]: Activating
+[INFO] [1792232265.131044037] [maze_route_test.global_costmap.global_costmap]: Activating
+[INFO] [1792232265.131050669] [maze_route_test.global_costmap.global_costmap]: Checking transform
+[INFO] [1792232265.131078071] [maze_route_test.global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1792232265.631162005] [maze_route_test.global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[INFO] [1792232266.131172495] [maze_route_test.global_costmap.global_costmap]: Timed out waiting for transform from base_footprint to map to become available, tf error: Invalid frame ID "map" passed to canTransform argument target_frame - frame does not exist
+[ERROR] [1792232266.131357959] [maze_route_test.global_costmap.global_costmap]: Failed to activate global_costmap because transform from base_footprint to map did not become available before timeout
+[INFO] [1792232266.133001826] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[INFO] [1792232266.133218797] [maze_route_test.planner_server]: Running Nav2 LifecycleNode rcl preshutdown (planner_server)
+[INFO] [1792232266.133331123] [maze_route_test.planner_server]: Cleaning up
+[INFO] [1792232266.158371300] [maze_route_test.global_costmap.global_costmap]: Cleaning up
+[INFO] [1792232266.170877607] [maze_route_test.planner_server]: Cleaning up plugin GridBased of type NavfnPlanner
+[INFO] [1792232266.171329352] [maze_route_test.planner_server]: Destroying plugin GridBased of type NavfnPlanner
+[INFO] [1792232266.195951650] [maze_route_test.planner_server]: Destroying bond (planner_server) to lifecycle manager.
+[INFO] [1792232266.200573714] [maze_route_test.global_costmap.global_costmap]: Destroying
+[INFO] [1792232266.216370861] [maze_route_test.planner_server]: Destroying

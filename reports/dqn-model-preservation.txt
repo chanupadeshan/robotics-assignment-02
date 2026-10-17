@@ -1,0 +1,3 @@
+models/dqn/maze_dqn.pt: OK
+models/dqn/maze_seed27.pt: OK
+models/dqn/maze_seed7.pt: OK

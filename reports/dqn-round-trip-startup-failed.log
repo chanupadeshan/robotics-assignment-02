@@ -1,0 +1,7 @@
+Starting dqn-final-bottom
+{"name": "dqn-final-bottom", "exit_code": 1, "passed": false, "navigation": {}}
+Traceback (most recent call last):
+  File "/tmp/dqn_round_trip.py", line 14, in <module>
+    assert result.returncode==0 and r['passed'] and r.get('controller_tolerance_restored'),name
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: dqn-final-bottom
